@@ -1,0 +1,2037 @@
+Model parameters configuration:[data_file=data/credit.missing_removed.csv,stat_file=data/output/credit.stat,max_iter=500,sample_rate=-1.000000,learn_rate=0.100000,max_depth=1,split_points=1000]
+features:('A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'label')
+
+ dataset size=653
+description for field:A1 enum type, distinct values number:2 valueset=set(['a', 'b'])
+############################################################
+description for field:A2 real value, distinct values number:340 range is [13.75,76.75]
+############################################################
+description for field:A3 real value, distinct values number:213 range is [0.0,28.0]
+############################################################
+description for field:A4 enum type, distinct values number:3 valueset=set(['y', 'u', 'l'])
+############################################################
+description for field:A5 enum type, distinct values number:3 valueset=set(['gg', 'p', 'g'])
+############################################################
+description for field:A6 enum type, distinct values number:14 valueset=set(['aa', 'c', 'e', 'd', 'cc', 'k', 'j', 'm', 'q', 'i', 'r', 'ff', 'w', 'x'])
+############################################################
+description for field:A7 enum type, distinct values number:9 valueset=set(['bb', 'h', 'dd', 'j', 'o', 'n', 'ff', 'v', 'z'])
+############################################################
+description for field:A8 real value, distinct values number:131 range is [0.0,28.5]
+############################################################
+description for field:A9 enum type, distinct values number:2 valueset=set(['t', 'f'])
+############################################################
+description for field:A10 enum type, distinct values number:2 valueset=set(['t', 'f'])
+############################################################
+description for field:A11 real value, distinct values number:23 range is [0.0,67.0]
+############################################################
+description for field:A12 enum type, distinct values number:2 valueset=set(['t', 'f'])
+############################################################
+description for field:A13 enum type, distinct values number:3 valueset=set(['p', 's', 'g'])
+############################################################
+description for field:A14 real value, distinct values number:164 range is [0.0,2000.0]
+############################################################
+description for field:A15 real value, distinct values number:229 range is [0.0,100000.0]
+############################################################
+description for field:label enum type, distinct values number:2 valueset=set(['+', '-'])
+############################################################
+
+accuracy=0.857798,average train_loss=0.640376,average test_loss=0.640690
+stop iteration: 1 time now: 2013-03-01 20:37:29.863763
+
+
+accuracy=0.857798,average train_loss=0.597336,average test_loss=0.598030
+stop iteration: 2 time now: 2013-03-01 20:37:30.863509
+
+
+accuracy=0.857798,average train_loss=0.561832,average test_loss=0.562939
+stop iteration: 3 time now: 2013-03-01 20:37:31.862121
+
+
+accuracy=0.857798,average train_loss=0.532301,average test_loss=0.533831
+stop iteration: 4 time now: 2013-03-01 20:37:32.858284
+
+
+accuracy=0.857798,average train_loss=0.507583,average test_loss=0.509535
+stop iteration: 5 time now: 2013-03-01 20:37:33.860557
+
+
+accuracy=0.857798,average train_loss=0.486796,average test_loss=0.489162
+stop iteration: 6 time now: 2013-03-01 20:37:34.864676
+
+
+accuracy=0.857798,average train_loss=0.469253,average test_loss=0.472018
+stop iteration: 7 time now: 2013-03-01 20:37:35.864065
+
+
+accuracy=0.857798,average train_loss=0.454408,average test_loss=0.457555
+stop iteration: 8 time now: 2013-03-01 20:37:36.866768
+
+
+accuracy=0.857798,average train_loss=0.441822,average test_loss=0.445333
+stop iteration: 9 time now: 2013-03-01 20:37:37.873785
+
+
+accuracy=0.857798,average train_loss=0.431139,average test_loss=0.434993
+stop iteration: 10 time now: 2013-03-01 20:37:38.876814
+
+
+accuracy=0.857798,average train_loss=0.422408,average test_loss=0.426338
+stop iteration: 11 time now: 2013-03-01 20:37:39.884522
+
+
+accuracy=0.857798,average train_loss=0.414358,average test_loss=0.421054
+stop iteration: 12 time now: 2013-03-01 20:37:40.886945
+
+
+accuracy=0.857798,average train_loss=0.406252,average test_loss=0.413107
+stop iteration: 13 time now: 2013-03-01 20:37:41.893287
+
+
+accuracy=0.857798,average train_loss=0.399811,average test_loss=0.406654
+stop iteration: 14 time now: 2013-03-01 20:37:42.900132
+
+
+accuracy=0.857798,average train_loss=0.393713,average test_loss=0.402854
+stop iteration: 15 time now: 2013-03-01 20:37:43.907818
+
+
+accuracy=0.857798,average train_loss=0.387488,average test_loss=0.396662
+stop iteration: 16 time now: 2013-03-01 20:37:44.915376
+
+
+accuracy=0.857798,average train_loss=0.382282,average test_loss=0.392151
+stop iteration: 17 time now: 2013-03-01 20:37:45.925054
+
+
+accuracy=0.857798,average train_loss=0.377373,average test_loss=0.388521
+stop iteration: 18 time now: 2013-03-01 20:37:46.938768
+
+
+accuracy=0.857798,average train_loss=0.372791,average test_loss=0.385749
+stop iteration: 19 time now: 2013-03-01 20:37:47.952478
+
+
+accuracy=0.857798,average train_loss=0.368265,average test_loss=0.381147
+stop iteration: 20 time now: 2013-03-01 20:37:48.966313
+
+
+accuracy=0.857798,average train_loss=0.364510,average test_loss=0.378470
+stop iteration: 21 time now: 2013-03-01 20:37:49.984209
+
+
+accuracy=0.857798,average train_loss=0.360897,average test_loss=0.374685
+stop iteration: 22 time now: 2013-03-01 20:37:51.005929
+
+
+accuracy=0.857798,average train_loss=0.357394,average test_loss=0.372684
+stop iteration: 23 time now: 2013-03-01 20:37:52.029659
+
+
+accuracy=0.857798,average train_loss=0.354352,average test_loss=0.370076
+stop iteration: 24 time now: 2013-03-01 20:37:53.054434
+
+
+accuracy=0.857798,average train_loss=0.351175,average test_loss=0.366761
+stop iteration: 25 time now: 2013-03-01 20:37:54.077528
+
+
+accuracy=0.857798,average train_loss=0.348472,average test_loss=0.364942
+stop iteration: 26 time now: 2013-03-01 20:37:55.106588
+
+
+accuracy=0.857798,average train_loss=0.345748,average test_loss=0.363455
+stop iteration: 27 time now: 2013-03-01 20:37:56.135552
+
+
+accuracy=0.857798,average train_loss=0.343268,average test_loss=0.360803
+stop iteration: 28 time now: 2013-03-01 20:37:57.162789
+
+
+accuracy=0.857798,average train_loss=0.341164,average test_loss=0.359041
+stop iteration: 29 time now: 2013-03-01 20:37:58.195105
+
+
+accuracy=0.857798,average train_loss=0.339126,average test_loss=0.357771
+stop iteration: 30 time now: 2013-03-01 20:37:59.228105
+
+
+accuracy=0.857798,average train_loss=0.336978,average test_loss=0.356662
+stop iteration: 31 time now: 2013-03-01 20:38:00.264754
+
+
+accuracy=0.857798,average train_loss=0.335113,average test_loss=0.354574
+stop iteration: 32 time now: 2013-03-01 20:38:01.295921
+
+
+accuracy=0.857798,average train_loss=0.333514,average test_loss=0.353497
+stop iteration: 33 time now: 2013-03-01 20:38:02.325579
+
+
+accuracy=0.857798,average train_loss=0.331917,average test_loss=0.352371
+stop iteration: 34 time now: 2013-03-01 20:38:03.358096
+
+
+accuracy=0.857798,average train_loss=0.330242,average test_loss=0.350513
+stop iteration: 35 time now: 2013-03-01 20:38:04.392899
+
+
+accuracy=0.857798,average train_loss=0.328798,average test_loss=0.348674
+stop iteration: 36 time now: 2013-03-01 20:38:05.427603
+
+
+accuracy=0.857798,average train_loss=0.326338,average test_loss=0.350810
+stop iteration: 37 time now: 2013-03-01 20:38:06.466607
+
+
+accuracy=0.857798,average train_loss=0.324825,average test_loss=0.350230
+stop iteration: 38 time now: 2013-03-01 20:38:07.508265
+
+
+accuracy=0.857798,average train_loss=0.323201,average test_loss=0.347244
+stop iteration: 39 time now: 2013-03-01 20:38:08.548522
+
+
+accuracy=0.857798,average train_loss=0.321979,average test_loss=0.346529
+stop iteration: 40 time now: 2013-03-01 20:38:09.590581
+
+
+accuracy=0.857798,average train_loss=0.320786,average test_loss=0.345635
+stop iteration: 41 time now: 2013-03-01 20:38:10.632510
+
+
+accuracy=0.857798,average train_loss=0.319568,average test_loss=0.344276
+stop iteration: 42 time now: 2013-03-01 20:38:11.675885
+
+
+accuracy=0.857798,average train_loss=0.318500,average test_loss=0.343141
+stop iteration: 43 time now: 2013-03-01 20:38:12.727883
+
+
+accuracy=0.857798,average train_loss=0.317321,average test_loss=0.341599
+stop iteration: 44 time now: 2013-03-01 20:38:13.776924
+
+
+accuracy=0.857798,average train_loss=0.316041,average test_loss=0.340063
+stop iteration: 45 time now: 2013-03-01 20:38:14.827464
+
+
+accuracy=0.853211,average train_loss=0.315272,average test_loss=0.341557
+stop iteration: 46 time now: 2013-03-01 20:38:15.876969
+
+
+accuracy=0.853211,average train_loss=0.314175,average test_loss=0.340982
+stop iteration: 47 time now: 2013-03-01 20:38:16.932637
+
+
+accuracy=0.853211,average train_loss=0.313157,average test_loss=0.340073
+stop iteration: 48 time now: 2013-03-01 20:38:17.988285
+
+
+accuracy=0.853211,average train_loss=0.312125,average test_loss=0.338853
+stop iteration: 49 time now: 2013-03-01 20:38:19.049127
+
+
+accuracy=0.853211,average train_loss=0.311108,average test_loss=0.338256
+stop iteration: 50 time now: 2013-03-01 20:38:20.110962
+
+
+accuracy=0.857798,average train_loss=0.310004,average test_loss=0.337771
+stop iteration: 51 time now: 2013-03-01 20:38:21.168823
+
+
+accuracy=0.857798,average train_loss=0.309095,average test_loss=0.336806
+stop iteration: 52 time now: 2013-03-01 20:38:22.224240
+
+
+accuracy=0.857798,average train_loss=0.308130,average test_loss=0.336095
+stop iteration: 53 time now: 2013-03-01 20:38:23.283757
+
+
+accuracy=0.857798,average train_loss=0.307213,average test_loss=0.336764
+stop iteration: 54 time now: 2013-03-01 20:38:24.344530
+
+
+accuracy=0.857798,average train_loss=0.306225,average test_loss=0.335470
+stop iteration: 55 time now: 2013-03-01 20:38:25.404380
+
+
+accuracy=0.853211,average train_loss=0.305302,average test_loss=0.335985
+stop iteration: 56 time now: 2013-03-01 20:38:26.469297
+
+
+accuracy=0.862385,average train_loss=0.304399,average test_loss=0.334773
+stop iteration: 57 time now: 2013-03-01 20:38:27.538531
+
+
+accuracy=0.862385,average train_loss=0.303851,average test_loss=0.333642
+stop iteration: 58 time now: 2013-03-01 20:38:28.605831
+
+
+accuracy=0.862385,average train_loss=0.302826,average test_loss=0.332435
+stop iteration: 59 time now: 2013-03-01 20:38:29.671788
+
+
+accuracy=0.862385,average train_loss=0.302316,average test_loss=0.332352
+stop iteration: 60 time now: 2013-03-01 20:38:30.741019
+
+
+accuracy=0.862385,average train_loss=0.301473,average test_loss=0.331221
+stop iteration: 61 time now: 2013-03-01 20:38:31.812331
+
+
+accuracy=0.857798,average train_loss=0.300598,average test_loss=0.331927
+stop iteration: 62 time now: 2013-03-01 20:38:32.889517
+
+
+accuracy=0.862385,average train_loss=0.299807,average test_loss=0.332628
+stop iteration: 63 time now: 2013-03-01 20:38:33.964310
+
+
+accuracy=0.862385,average train_loss=0.299333,average test_loss=0.333836
+stop iteration: 64 time now: 2013-03-01 20:38:35.041440
+
+
+accuracy=0.857798,average train_loss=0.298389,average test_loss=0.332604
+stop iteration: 65 time now: 2013-03-01 20:38:36.119511
+
+
+accuracy=0.862385,average train_loss=0.297520,average test_loss=0.332283
+stop iteration: 66 time now: 2013-03-01 20:38:37.197172
+
+
+accuracy=0.862385,average train_loss=0.296756,average test_loss=0.331191
+stop iteration: 67 time now: 2013-03-01 20:38:38.279894
+
+
+accuracy=0.862385,average train_loss=0.295953,average test_loss=0.330818
+stop iteration: 68 time now: 2013-03-01 20:38:39.362366
+
+
+accuracy=0.862385,average train_loss=0.295175,average test_loss=0.329985
+stop iteration: 69 time now: 2013-03-01 20:38:40.445931
+
+
+accuracy=0.862385,average train_loss=0.294382,average test_loss=0.329391
+stop iteration: 70 time now: 2013-03-01 20:38:41.531839
+
+
+accuracy=0.862385,average train_loss=0.293967,average test_loss=0.329354
+stop iteration: 71 time now: 2013-03-01 20:38:42.615651
+
+
+accuracy=0.862385,average train_loss=0.293194,average test_loss=0.328313
+stop iteration: 72 time now: 2013-03-01 20:38:43.701742
+
+
+accuracy=0.862385,average train_loss=0.292426,average test_loss=0.329003
+stop iteration: 73 time now: 2013-03-01 20:38:44.786519
+
+
+accuracy=0.862385,average train_loss=0.291550,average test_loss=0.328686
+stop iteration: 74 time now: 2013-03-01 20:38:45.873746
+
+
+accuracy=0.862385,average train_loss=0.290551,average test_loss=0.328243
+stop iteration: 75 time now: 2013-03-01 20:38:46.958975
+
+
+accuracy=0.862385,average train_loss=0.290189,average test_loss=0.329357
+stop iteration: 76 time now: 2013-03-01 20:38:48.049352
+
+
+accuracy=0.862385,average train_loss=0.289828,average test_loss=0.328578
+stop iteration: 77 time now: 2013-03-01 20:38:49.143819
+
+
+accuracy=0.862385,average train_loss=0.289150,average test_loss=0.329306
+stop iteration: 78 time now: 2013-03-01 20:38:50.239345
+
+
+accuracy=0.862385,average train_loss=0.288415,average test_loss=0.328297
+stop iteration: 79 time now: 2013-03-01 20:38:51.331194
+
+
+accuracy=0.862385,average train_loss=0.287747,average test_loss=0.328992
+stop iteration: 80 time now: 2013-03-01 20:38:52.427805
+
+
+accuracy=0.862385,average train_loss=0.287052,average test_loss=0.328655
+stop iteration: 81 time now: 2013-03-01 20:38:53.528320
+
+
+accuracy=0.862385,average train_loss=0.286377,average test_loss=0.327660
+stop iteration: 82 time now: 2013-03-01 20:38:54.633489
+
+
+accuracy=0.862385,average train_loss=0.285728,average test_loss=0.327498
+stop iteration: 83 time now: 2013-03-01 20:38:55.733100
+
+
+accuracy=0.862385,average train_loss=0.285410,average test_loss=0.327483
+stop iteration: 84 time now: 2013-03-01 20:38:56.838623
+
+
+accuracy=0.862385,average train_loss=0.284760,average test_loss=0.326776
+stop iteration: 85 time now: 2013-03-01 20:38:57.936900
+
+
+accuracy=0.862385,average train_loss=0.284109,average test_loss=0.325876
+stop iteration: 86 time now: 2013-03-01 20:38:59.044872
+
+
+accuracy=0.862385,average train_loss=0.283443,average test_loss=0.325388
+stop iteration: 87 time now: 2013-03-01 20:39:00.155446
+
+
+accuracy=0.857798,average train_loss=0.282884,average test_loss=0.325910
+stop iteration: 88 time now: 2013-03-01 20:39:01.267691
+
+
+accuracy=0.857798,average train_loss=0.282281,average test_loss=0.326661
+stop iteration: 89 time now: 2013-03-01 20:39:02.377559
+
+
+accuracy=0.857798,average train_loss=0.281662,average test_loss=0.325818
+stop iteration: 90 time now: 2013-03-01 20:39:03.494141
+
+
+accuracy=0.857798,average train_loss=0.280930,average test_loss=0.325655
+stop iteration: 91 time now: 2013-03-01 20:39:04.607792
+
+
+accuracy=0.857798,average train_loss=0.280173,average test_loss=0.325631
+stop iteration: 92 time now: 2013-03-01 20:39:05.720542
+
+
+accuracy=0.857798,average train_loss=0.279616,average test_loss=0.326168
+stop iteration: 93 time now: 2013-03-01 20:39:06.837574
+
+
+accuracy=0.857798,average train_loss=0.279006,average test_loss=0.325382
+stop iteration: 94 time now: 2013-03-01 20:39:07.953673
+
+
+accuracy=0.857798,average train_loss=0.278726,average test_loss=0.326403
+stop iteration: 95 time now: 2013-03-01 20:39:09.066518
+
+
+accuracy=0.857798,average train_loss=0.278051,average test_loss=0.325396
+stop iteration: 96 time now: 2013-03-01 20:39:10.181308
+
+
+accuracy=0.857798,average train_loss=0.277778,average test_loss=0.325394
+stop iteration: 97 time now: 2013-03-01 20:39:11.297726
+
+
+accuracy=0.857798,average train_loss=0.277214,average test_loss=0.326061
+stop iteration: 98 time now: 2013-03-01 20:39:12.416904
+
+
+accuracy=0.857798,average train_loss=0.276651,average test_loss=0.325256
+stop iteration: 99 time now: 2013-03-01 20:39:13.536890
+
+
+accuracy=0.857798,average train_loss=0.276115,average test_loss=0.324493
+stop iteration: 100 time now: 2013-03-01 20:39:14.661583
+
+
+accuracy=0.853211,average train_loss=0.275573,average test_loss=0.323726
+stop iteration: 101 time now: 2013-03-01 20:39:15.786225
+
+
+accuracy=0.857798,average train_loss=0.275040,average test_loss=0.324396
+stop iteration: 102 time now: 2013-03-01 20:39:16.916593
+
+
+accuracy=0.853211,average train_loss=0.274522,average test_loss=0.325157
+stop iteration: 103 time now: 2013-03-01 20:39:18.042486
+
+
+accuracy=0.857798,average train_loss=0.274068,average test_loss=0.325731
+stop iteration: 104 time now: 2013-03-01 20:39:19.169876
+
+
+accuracy=0.853211,average train_loss=0.273533,average test_loss=0.325527
+stop iteration: 105 time now: 2013-03-01 20:39:20.301954
+
+
+accuracy=0.853211,average train_loss=0.273296,average test_loss=0.326506
+stop iteration: 106 time now: 2013-03-01 20:39:21.439054
+
+
+accuracy=0.853211,average train_loss=0.272778,average test_loss=0.326423
+stop iteration: 107 time now: 2013-03-01 20:39:22.574621
+
+
+accuracy=0.853211,average train_loss=0.272544,average test_loss=0.326427
+stop iteration: 108 time now: 2013-03-01 20:39:23.708206
+
+
+accuracy=0.853211,average train_loss=0.271992,average test_loss=0.326028
+stop iteration: 109 time now: 2013-03-01 20:39:24.843055
+
+
+accuracy=0.857798,average train_loss=0.271452,average test_loss=0.325413
+stop iteration: 110 time now: 2013-03-01 20:39:25.976879
+
+
+accuracy=0.857798,average train_loss=0.270938,average test_loss=0.324742
+stop iteration: 111 time now: 2013-03-01 20:39:27.111485
+
+
+accuracy=0.857798,average train_loss=0.270435,average test_loss=0.324340
+stop iteration: 112 time now: 2013-03-01 20:39:28.254682
+
+
+accuracy=0.857798,average train_loss=0.269892,average test_loss=0.324312
+stop iteration: 113 time now: 2013-03-01 20:39:29.393490
+
+
+accuracy=0.857798,average train_loss=0.269423,average test_loss=0.323703
+stop iteration: 114 time now: 2013-03-01 20:39:30.534586
+
+
+accuracy=0.857798,average train_loss=0.268871,average test_loss=0.322852
+stop iteration: 115 time now: 2013-03-01 20:39:31.674239
+
+
+accuracy=0.857798,average train_loss=0.268410,average test_loss=0.323620
+stop iteration: 116 time now: 2013-03-01 20:39:32.815743
+
+
+accuracy=0.857798,average train_loss=0.268202,average test_loss=0.323008
+stop iteration: 117 time now: 2013-03-01 20:39:33.960499
+
+
+accuracy=0.853211,average train_loss=0.267732,average test_loss=0.322341
+stop iteration: 118 time now: 2013-03-01 20:39:35.108346
+
+
+accuracy=0.857798,average train_loss=0.267260,average test_loss=0.321561
+stop iteration: 119 time now: 2013-03-01 20:39:36.257776
+
+
+accuracy=0.853211,average train_loss=0.266791,average test_loss=0.322204
+stop iteration: 120 time now: 2013-03-01 20:39:37.413230
+
+
+accuracy=0.853211,average train_loss=0.266579,average test_loss=0.322214
+stop iteration: 121 time now: 2013-03-01 20:39:38.567528
+
+
+accuracy=0.853211,average train_loss=0.265870,average test_loss=0.321992
+stop iteration: 122 time now: 2013-03-01 20:39:39.723218
+
+
+accuracy=0.853211,average train_loss=0.265484,average test_loss=0.322554
+stop iteration: 123 time now: 2013-03-01 20:39:40.878742
+
+
+accuracy=0.853211,average train_loss=0.265034,average test_loss=0.321918
+stop iteration: 124 time now: 2013-03-01 20:39:42.039992
+
+
+accuracy=0.853211,average train_loss=0.264838,average test_loss=0.322824
+stop iteration: 125 time now: 2013-03-01 20:39:43.211996
+
+
+accuracy=0.853211,average train_loss=0.264437,average test_loss=0.323204
+stop iteration: 126 time now: 2013-03-01 20:39:44.370938
+
+
+accuracy=0.853211,average train_loss=0.263988,average test_loss=0.322595
+stop iteration: 127 time now: 2013-03-01 20:39:45.529869
+
+
+accuracy=0.857798,average train_loss=0.263427,average test_loss=0.322576
+stop iteration: 128 time now: 2013-03-01 20:39:46.689979
+
+
+accuracy=0.857798,average train_loss=0.263014,average test_loss=0.323210
+stop iteration: 129 time now: 2013-03-01 20:39:47.854193
+
+
+accuracy=0.857798,average train_loss=0.262819,average test_loss=0.323222
+stop iteration: 130 time now: 2013-03-01 20:39:49.017565
+
+
+accuracy=0.857798,average train_loss=0.262418,average test_loss=0.322535
+stop iteration: 131 time now: 2013-03-01 20:39:50.179848
+
+
+accuracy=0.857798,average train_loss=0.262001,average test_loss=0.322586
+stop iteration: 132 time now: 2013-03-01 20:39:51.343411
+
+
+accuracy=0.857798,average train_loss=0.261542,average test_loss=0.322244
+stop iteration: 133 time now: 2013-03-01 20:39:52.509879
+
+
+accuracy=0.857798,average train_loss=0.261125,average test_loss=0.321683
+stop iteration: 134 time now: 2013-03-01 20:39:53.672952
+
+
+accuracy=0.857798,average train_loss=0.260721,average test_loss=0.322465
+stop iteration: 135 time now: 2013-03-01 20:39:54.842439
+
+
+accuracy=0.857798,average train_loss=0.260199,average test_loss=0.321995
+stop iteration: 136 time now: 2013-03-01 20:39:56.010697
+
+
+accuracy=0.853211,average train_loss=0.259865,average test_loss=0.322599
+stop iteration: 137 time now: 2013-03-01 20:39:57.187361
+
+
+accuracy=0.857798,average train_loss=0.259430,average test_loss=0.322056
+stop iteration: 138 time now: 2013-03-01 20:39:58.370278
+
+
+accuracy=0.857798,average train_loss=0.259032,average test_loss=0.321746
+stop iteration: 139 time now: 2013-03-01 20:39:59.549232
+
+
+accuracy=0.857798,average train_loss=0.258862,average test_loss=0.321760
+stop iteration: 140 time now: 2013-03-01 20:40:00.725894
+
+
+accuracy=0.853211,average train_loss=0.258407,average test_loss=0.320993
+stop iteration: 141 time now: 2013-03-01 20:40:01.903137
+
+
+accuracy=0.857798,average train_loss=0.258043,average test_loss=0.321598
+stop iteration: 142 time now: 2013-03-01 20:40:03.087175
+
+
+accuracy=0.857798,average train_loss=0.257650,average test_loss=0.321025
+stop iteration: 143 time now: 2013-03-01 20:40:04.269638
+
+
+accuracy=0.857798,average train_loss=0.257482,average test_loss=0.321878
+stop iteration: 144 time now: 2013-03-01 20:40:05.452319
+
+
+accuracy=0.857798,average train_loss=0.257065,average test_loss=0.321454
+stop iteration: 145 time now: 2013-03-01 20:40:06.637501
+
+
+accuracy=0.853211,average train_loss=0.256635,average test_loss=0.321546
+stop iteration: 146 time now: 2013-03-01 20:40:07.817694
+
+
+accuracy=0.853211,average train_loss=0.256476,average test_loss=0.321025
+stop iteration: 147 time now: 2013-03-01 20:40:09.005357
+
+
+accuracy=0.853211,average train_loss=0.256101,average test_loss=0.320511
+stop iteration: 148 time now: 2013-03-01 20:40:10.190029
+
+
+accuracy=0.857798,average train_loss=0.255746,average test_loss=0.321112
+stop iteration: 149 time now: 2013-03-01 20:40:11.376883
+
+
+accuracy=0.853211,average train_loss=0.255392,average test_loss=0.321888
+stop iteration: 150 time now: 2013-03-01 20:40:12.565120
+
+
+accuracy=0.853211,average train_loss=0.254815,average test_loss=0.321780
+stop iteration: 151 time now: 2013-03-01 20:40:13.758451
+
+
+accuracy=0.853211,average train_loss=0.254533,average test_loss=0.322357
+stop iteration: 152 time now: 2013-03-01 20:40:14.951286
+
+
+accuracy=0.853211,average train_loss=0.254182,average test_loss=0.321851
+stop iteration: 153 time now: 2013-03-01 20:40:16.146490
+
+
+accuracy=0.853211,average train_loss=0.254029,average test_loss=0.321868
+stop iteration: 154 time now: 2013-03-01 20:40:17.339738
+
+
+accuracy=0.853211,average train_loss=0.253680,average test_loss=0.321597
+stop iteration: 155 time now: 2013-03-01 20:40:18.542732
+
+
+accuracy=0.853211,average train_loss=0.253279,average test_loss=0.320876
+stop iteration: 156 time now: 2013-03-01 20:40:19.744250
+
+
+accuracy=0.853211,average train_loss=0.252886,average test_loss=0.320585
+stop iteration: 157 time now: 2013-03-01 20:40:20.952312
+
+
+accuracy=0.853211,average train_loss=0.252736,average test_loss=0.321423
+stop iteration: 158 time now: 2013-03-01 20:40:22.152915
+
+
+accuracy=0.853211,average train_loss=0.252395,average test_loss=0.320946
+stop iteration: 159 time now: 2013-03-01 20:40:23.355091
+
+
+accuracy=0.853211,average train_loss=0.252078,average test_loss=0.321314
+stop iteration: 160 time now: 2013-03-01 20:40:24.561220
+
+
+accuracy=0.853211,average train_loss=0.251930,average test_loss=0.321330
+stop iteration: 161 time now: 2013-03-01 20:40:25.771272
+
+
+accuracy=0.853211,average train_loss=0.251593,average test_loss=0.321289
+stop iteration: 162 time now: 2013-03-01 20:40:26.980801
+
+
+accuracy=0.853211,average train_loss=0.251149,average test_loss=0.321390
+stop iteration: 163 time now: 2013-03-01 20:40:28.193201
+
+
+accuracy=0.853211,average train_loss=0.250839,average test_loss=0.321971
+stop iteration: 164 time now: 2013-03-01 20:40:29.400843
+
+
+accuracy=0.853211,average train_loss=0.250507,average test_loss=0.321507
+stop iteration: 165 time now: 2013-03-01 20:40:30.613252
+
+
+accuracy=0.853211,average train_loss=0.250210,average test_loss=0.320947
+stop iteration: 166 time now: 2013-03-01 20:40:31.821126
+
+
+accuracy=0.853211,average train_loss=0.249891,average test_loss=0.321073
+stop iteration: 167 time now: 2013-03-01 20:40:33.032732
+
+
+accuracy=0.853211,average train_loss=0.249574,average test_loss=0.321852
+stop iteration: 168 time now: 2013-03-01 20:40:34.241410
+
+
+accuracy=0.853211,average train_loss=0.249328,average test_loss=0.322452
+stop iteration: 169 time now: 2013-03-01 20:40:35.453521
+
+
+accuracy=0.853211,average train_loss=0.248985,average test_loss=0.321983
+stop iteration: 170 time now: 2013-03-01 20:40:36.665892
+
+
+accuracy=0.853211,average train_loss=0.248686,average test_loss=0.321667
+stop iteration: 171 time now: 2013-03-01 20:40:37.877342
+
+
+accuracy=0.853211,average train_loss=0.248555,average test_loss=0.322488
+stop iteration: 172 time now: 2013-03-01 20:40:39.093088
+
+
+accuracy=0.853211,average train_loss=0.248270,average test_loss=0.323050
+stop iteration: 173 time now: 2013-03-01 20:40:40.315945
+
+
+accuracy=0.853211,average train_loss=0.248138,average test_loss=0.323067
+stop iteration: 174 time now: 2013-03-01 20:40:41.538622
+
+
+accuracy=0.853211,average train_loss=0.247797,average test_loss=0.322823
+stop iteration: 175 time now: 2013-03-01 20:40:42.761202
+
+
+accuracy=0.853211,average train_loss=0.247469,average test_loss=0.322992
+stop iteration: 176 time now: 2013-03-01 20:40:43.983205
+
+
+accuracy=0.853211,average train_loss=0.247151,average test_loss=0.322650
+stop iteration: 177 time now: 2013-03-01 20:40:45.211536
+
+
+accuracy=0.853211,average train_loss=0.246884,average test_loss=0.322849
+stop iteration: 178 time now: 2013-03-01 20:40:46.441358
+
+
+accuracy=0.853211,average train_loss=0.246550,average test_loss=0.322213
+stop iteration: 179 time now: 2013-03-01 20:40:47.671897
+
+
+accuracy=0.853211,average train_loss=0.246271,average test_loss=0.322975
+stop iteration: 180 time now: 2013-03-01 20:40:48.903249
+
+
+accuracy=0.853211,average train_loss=0.245974,average test_loss=0.322472
+stop iteration: 181 time now: 2013-03-01 20:40:50.131309
+
+
+accuracy=0.853211,average train_loss=0.245691,average test_loss=0.322241
+stop iteration: 182 time now: 2013-03-01 20:40:51.362243
+
+
+accuracy=0.853211,average train_loss=0.245215,average test_loss=0.322189
+stop iteration: 183 time now: 2013-03-01 20:40:52.591742
+
+
+accuracy=0.853211,average train_loss=0.244940,average test_loss=0.321811
+stop iteration: 184 time now: 2013-03-01 20:40:53.824191
+
+
+accuracy=0.853211,average train_loss=0.244663,average test_loss=0.322254
+stop iteration: 185 time now: 2013-03-01 20:40:55.060915
+
+
+accuracy=0.853211,average train_loss=0.244542,average test_loss=0.322272
+stop iteration: 186 time now: 2013-03-01 20:40:56.296692
+
+
+accuracy=0.853211,average train_loss=0.244329,average test_loss=0.322848
+stop iteration: 187 time now: 2013-03-01 20:40:57.532366
+
+
+accuracy=0.853211,average train_loss=0.244212,average test_loss=0.322395
+stop iteration: 188 time now: 2013-03-01 20:40:58.775713
+
+
+accuracy=0.853211,average train_loss=0.243945,average test_loss=0.322396
+stop iteration: 189 time now: 2013-03-01 20:41:00.017283
+
+
+accuracy=0.853211,average train_loss=0.243704,average test_loss=0.322770
+stop iteration: 190 time now: 2013-03-01 20:41:01.268607
+
+
+accuracy=0.853211,average train_loss=0.243422,average test_loss=0.322368
+stop iteration: 191 time now: 2013-03-01 20:41:02.514361
+
+
+accuracy=0.853211,average train_loss=0.243304,average test_loss=0.323169
+stop iteration: 192 time now: 2013-03-01 20:41:03.769044
+
+
+accuracy=0.853211,average train_loss=0.242949,average test_loss=0.323347
+stop iteration: 193 time now: 2013-03-01 20:41:05.016045
+
+
+accuracy=0.853211,average train_loss=0.242714,average test_loss=0.322864
+stop iteration: 194 time now: 2013-03-01 20:41:06.269095
+
+
+accuracy=0.853211,average train_loss=0.242460,average test_loss=0.323021
+stop iteration: 195 time now: 2013-03-01 20:41:07.522543
+
+
+accuracy=0.853211,average train_loss=0.242223,average test_loss=0.323020
+stop iteration: 196 time now: 2013-03-01 20:41:08.777396
+
+
+accuracy=0.853211,average train_loss=0.241964,average test_loss=0.323772
+stop iteration: 197 time now: 2013-03-01 20:41:10.033774
+
+
+accuracy=0.853211,average train_loss=0.241720,average test_loss=0.324522
+stop iteration: 198 time now: 2013-03-01 20:41:11.290230
+
+
+accuracy=0.853211,average train_loss=0.241430,average test_loss=0.323916
+stop iteration: 199 time now: 2013-03-01 20:41:12.543052
+
+
+accuracy=0.853211,average train_loss=0.241134,average test_loss=0.323719
+stop iteration: 200 time now: 2013-03-01 20:41:13.798704
+
+
+accuracy=0.853211,average train_loss=0.241016,average test_loss=0.323737
+stop iteration: 201 time now: 2013-03-01 20:41:15.055138
+
+
+accuracy=0.853211,average train_loss=0.240774,average test_loss=0.323363
+stop iteration: 202 time now: 2013-03-01 20:41:16.312878
+
+
+accuracy=0.853211,average train_loss=0.240518,average test_loss=0.323150
+stop iteration: 203 time now: 2013-03-01 20:41:17.572563
+
+
+accuracy=0.853211,average train_loss=0.240234,average test_loss=0.322737
+stop iteration: 204 time now: 2013-03-01 20:41:18.833263
+
+
+accuracy=0.853211,average train_loss=0.240006,average test_loss=0.323153
+stop iteration: 205 time now: 2013-03-01 20:41:20.094959
+
+
+accuracy=0.853211,average train_loss=0.239745,average test_loss=0.322776
+stop iteration: 206 time now: 2013-03-01 20:41:21.361717
+
+
+accuracy=0.853211,average train_loss=0.239477,average test_loss=0.323004
+stop iteration: 207 time now: 2013-03-01 20:41:22.631724
+
+
+accuracy=0.853211,average train_loss=0.239236,average test_loss=0.322728
+stop iteration: 208 time now: 2013-03-01 20:41:23.900994
+
+
+accuracy=0.853211,average train_loss=0.239051,average test_loss=0.323309
+stop iteration: 209 time now: 2013-03-01 20:41:25.167118
+
+
+accuracy=0.853211,average train_loss=0.238821,average test_loss=0.323487
+stop iteration: 210 time now: 2013-03-01 20:41:26.438324
+
+
+accuracy=0.853211,average train_loss=0.238718,average test_loss=0.324265
+stop iteration: 211 time now: 2013-03-01 20:41:27.711573
+
+
+accuracy=0.853211,average train_loss=0.238615,average test_loss=0.324282
+stop iteration: 212 time now: 2013-03-01 20:41:28.995038
+
+
+accuracy=0.853211,average train_loss=0.238406,average test_loss=0.324303
+stop iteration: 213 time now: 2013-03-01 20:41:30.269983
+
+
+accuracy=0.853211,average train_loss=0.238006,average test_loss=0.324334
+stop iteration: 214 time now: 2013-03-01 20:41:31.547351
+
+
+accuracy=0.853211,average train_loss=0.237785,average test_loss=0.324013
+stop iteration: 215 time now: 2013-03-01 20:41:32.824358
+
+
+accuracy=0.857798,average train_loss=0.237551,average test_loss=0.323815
+stop iteration: 216 time now: 2013-03-01 20:41:34.101285
+
+
+accuracy=0.853211,average train_loss=0.237335,average test_loss=0.324223
+stop iteration: 217 time now: 2013-03-01 20:41:35.376551
+
+
+accuracy=0.853211,average train_loss=0.237071,average test_loss=0.323654
+stop iteration: 218 time now: 2013-03-01 20:41:36.655650
+
+
+accuracy=0.853211,average train_loss=0.236851,average test_loss=0.324399
+stop iteration: 219 time now: 2013-03-01 20:41:37.937770
+
+
+accuracy=0.853211,average train_loss=0.236623,average test_loss=0.324056
+stop iteration: 220 time now: 2013-03-01 20:41:39.216705
+
+
+accuracy=0.853211,average train_loss=0.236416,average test_loss=0.324069
+stop iteration: 221 time now: 2013-03-01 20:41:40.499076
+
+
+accuracy=0.853211,average train_loss=0.236185,average test_loss=0.324825
+stop iteration: 222 time now: 2013-03-01 20:41:41.786159
+
+
+accuracy=0.853211,average train_loss=0.235964,average test_loss=0.324863
+stop iteration: 223 time now: 2013-03-01 20:41:43.076114
+
+
+accuracy=0.853211,average train_loss=0.235766,average test_loss=0.325271
+stop iteration: 224 time now: 2013-03-01 20:41:44.369514
+
+
+accuracy=0.853211,average train_loss=0.235664,average test_loss=0.324854
+stop iteration: 225 time now: 2013-03-01 20:41:45.661365
+
+
+accuracy=0.857798,average train_loss=0.235399,average test_loss=0.324691
+stop iteration: 226 time now: 2013-03-01 20:41:46.952592
+
+
+accuracy=0.857798,average train_loss=0.235204,average test_loss=0.324884
+stop iteration: 227 time now: 2013-03-01 20:41:48.245569
+
+
+accuracy=0.857798,average train_loss=0.234981,average test_loss=0.324622
+stop iteration: 228 time now: 2013-03-01 20:41:49.543407
+
+
+accuracy=0.857798,average train_loss=0.234791,average test_loss=0.324985
+stop iteration: 229 time now: 2013-03-01 20:41:50.840955
+
+
+accuracy=0.857798,average train_loss=0.234584,average test_loss=0.325163
+stop iteration: 230 time now: 2013-03-01 20:41:52.141403
+
+
+accuracy=0.857798,average train_loss=0.234489,average test_loss=0.325180
+stop iteration: 231 time now: 2013-03-01 20:41:53.438597
+
+
+accuracy=0.857798,average train_loss=0.234327,average test_loss=0.325752
+stop iteration: 232 time now: 2013-03-01 20:41:54.736480
+
+
+accuracy=0.857798,average train_loss=0.234140,average test_loss=0.325326
+stop iteration: 233 time now: 2013-03-01 20:41:56.038232
+
+
+accuracy=0.853211,average train_loss=0.233929,average test_loss=0.325105
+stop iteration: 234 time now: 2013-03-01 20:41:57.339492
+
+
+accuracy=0.857798,average train_loss=0.233725,average test_loss=0.325849
+stop iteration: 235 time now: 2013-03-01 20:41:58.641396
+
+
+accuracy=0.853211,average train_loss=0.233491,average test_loss=0.325321
+stop iteration: 236 time now: 2013-03-01 20:41:59.944800
+
+
+accuracy=0.853211,average train_loss=0.233296,average test_loss=0.325724
+stop iteration: 237 time now: 2013-03-01 20:42:01.253251
+
+
+accuracy=0.853211,average train_loss=0.233203,average test_loss=0.326472
+stop iteration: 238 time now: 2013-03-01 20:42:02.559332
+
+
+accuracy=0.853211,average train_loss=0.232997,average test_loss=0.326142
+stop iteration: 239 time now: 2013-03-01 20:42:03.870295
+
+
+accuracy=0.853211,average train_loss=0.232821,average test_loss=0.326562
+stop iteration: 240 time now: 2013-03-01 20:42:05.182336
+
+
+accuracy=0.853211,average train_loss=0.232730,average test_loss=0.326181
+stop iteration: 241 time now: 2013-03-01 20:42:06.503529
+
+
+accuracy=0.853211,average train_loss=0.232551,average test_loss=0.326189
+stop iteration: 242 time now: 2013-03-01 20:42:07.813953
+
+
+accuracy=0.853211,average train_loss=0.232361,average test_loss=0.326939
+stop iteration: 243 time now: 2013-03-01 20:42:09.136515
+
+
+accuracy=0.853211,average train_loss=0.232133,average test_loss=0.326897
+stop iteration: 244 time now: 2013-03-01 20:42:10.454368
+
+
+accuracy=0.853211,average train_loss=0.231933,average test_loss=0.326722
+stop iteration: 245 time now: 2013-03-01 20:42:11.773526
+
+
+accuracy=0.853211,average train_loss=0.231743,average test_loss=0.326435
+stop iteration: 246 time now: 2013-03-01 20:42:13.099455
+
+
+accuracy=0.853211,average train_loss=0.231391,average test_loss=0.326542
+stop iteration: 247 time now: 2013-03-01 20:42:14.414587
+
+
+accuracy=0.853211,average train_loss=0.231245,average test_loss=0.327116
+stop iteration: 248 time now: 2013-03-01 20:42:15.732220
+
+
+accuracy=0.853211,average train_loss=0.230961,average test_loss=0.326881
+stop iteration: 249 time now: 2013-03-01 20:42:17.050326
+
+
+accuracy=0.857798,average train_loss=0.230807,average test_loss=0.326917
+stop iteration: 250 time now: 2013-03-01 20:42:18.370204
+
+
+accuracy=0.857798,average train_loss=0.230627,average test_loss=0.327316
+stop iteration: 251 time now: 2013-03-01 20:42:19.691135
+
+
+accuracy=0.857798,average train_loss=0.230541,average test_loss=0.328067
+stop iteration: 252 time now: 2013-03-01 20:42:21.012873
+
+
+accuracy=0.857798,average train_loss=0.230355,average test_loss=0.327819
+stop iteration: 253 time now: 2013-03-01 20:42:22.335674
+
+
+accuracy=0.857798,average train_loss=0.230160,average test_loss=0.327889
+stop iteration: 254 time now: 2013-03-01 20:42:23.666917
+
+
+accuracy=0.857798,average train_loss=0.229888,average test_loss=0.328111
+stop iteration: 255 time now: 2013-03-01 20:42:25.001190
+
+
+accuracy=0.857798,average train_loss=0.229673,average test_loss=0.327760
+stop iteration: 256 time now: 2013-03-01 20:42:26.336129
+
+
+accuracy=0.857798,average train_loss=0.229486,average test_loss=0.327439
+stop iteration: 257 time now: 2013-03-01 20:42:27.670161
+
+
+accuracy=0.857798,average train_loss=0.229305,average test_loss=0.327281
+stop iteration: 258 time now: 2013-03-01 20:42:29.007575
+
+
+accuracy=0.857798,average train_loss=0.229124,average test_loss=0.328012
+stop iteration: 259 time now: 2013-03-01 20:42:30.346302
+
+
+accuracy=0.857798,average train_loss=0.228895,average test_loss=0.327883
+stop iteration: 260 time now: 2013-03-01 20:42:31.687260
+
+
+accuracy=0.857798,average train_loss=0.228808,average test_loss=0.327899
+stop iteration: 261 time now: 2013-03-01 20:42:33.028968
+
+
+accuracy=0.857798,average train_loss=0.228593,average test_loss=0.327387
+stop iteration: 262 time now: 2013-03-01 20:42:34.369805
+
+
+accuracy=0.857798,average train_loss=0.228431,average test_loss=0.327822
+stop iteration: 263 time now: 2013-03-01 20:42:35.714180
+
+
+accuracy=0.857798,average train_loss=0.228272,average test_loss=0.328013
+stop iteration: 264 time now: 2013-03-01 20:42:37.057549
+
+
+accuracy=0.857798,average train_loss=0.228171,average test_loss=0.328209
+stop iteration: 265 time now: 2013-03-01 20:42:38.398500
+
+
+accuracy=0.857798,average train_loss=0.227990,average test_loss=0.327957
+stop iteration: 266 time now: 2013-03-01 20:42:39.742924
+
+
+accuracy=0.862385,average train_loss=0.227812,average test_loss=0.328119
+stop iteration: 267 time now: 2013-03-01 20:42:41.082746
+
+
+accuracy=0.862385,average train_loss=0.227611,average test_loss=0.328403
+stop iteration: 268 time now: 2013-03-01 20:42:42.428884
+
+
+accuracy=0.862385,average train_loss=0.227441,average test_loss=0.328169
+stop iteration: 269 time now: 2013-03-01 20:42:43.777342
+
+
+accuracy=0.862385,average train_loss=0.227360,average test_loss=0.327810
+stop iteration: 270 time now: 2013-03-01 20:42:45.128628
+
+
+accuracy=0.862385,average train_loss=0.227256,average test_loss=0.328288
+stop iteration: 271 time now: 2013-03-01 20:42:46.484725
+
+
+accuracy=0.862385,average train_loss=0.227085,average test_loss=0.328029
+stop iteration: 272 time now: 2013-03-01 20:42:47.846325
+
+
+accuracy=0.862385,average train_loss=0.226930,average test_loss=0.328038
+stop iteration: 273 time now: 2013-03-01 20:42:49.202113
+
+
+accuracy=0.862385,average train_loss=0.226801,average test_loss=0.328614
+stop iteration: 274 time now: 2013-03-01 20:42:50.555029
+
+
+accuracy=0.862385,average train_loss=0.226601,average test_loss=0.328597
+stop iteration: 275 time now: 2013-03-01 20:42:51.918948
+
+
+accuracy=0.862385,average train_loss=0.226519,average test_loss=0.329343
+stop iteration: 276 time now: 2013-03-01 20:42:53.278584
+
+
+accuracy=0.862385,average train_loss=0.226352,average test_loss=0.330065
+stop iteration: 277 time now: 2013-03-01 20:42:54.640008
+
+
+accuracy=0.862385,average train_loss=0.226183,average test_loss=0.330117
+stop iteration: 278 time now: 2013-03-01 20:42:56.002954
+
+
+accuracy=0.862385,average train_loss=0.226021,average test_loss=0.329981
+stop iteration: 279 time now: 2013-03-01 20:42:57.360352
+
+
+accuracy=0.862385,average train_loss=0.225862,average test_loss=0.330742
+stop iteration: 280 time now: 2013-03-01 20:42:58.723613
+
+
+accuracy=0.862385,average train_loss=0.225699,average test_loss=0.330563
+stop iteration: 281 time now: 2013-03-01 20:43:00.083033
+
+
+accuracy=0.862385,average train_loss=0.225621,average test_loss=0.330578
+stop iteration: 282 time now: 2013-03-01 20:43:01.446375
+
+
+accuracy=0.862385,average train_loss=0.225407,average test_loss=0.330479
+stop iteration: 283 time now: 2013-03-01 20:43:02.807525
+
+
+accuracy=0.862385,average train_loss=0.225215,average test_loss=0.330005
+stop iteration: 284 time now: 2013-03-01 20:43:04.169220
+
+
+accuracy=0.857798,average train_loss=0.225056,average test_loss=0.330381
+stop iteration: 285 time now: 2013-03-01 20:43:05.531961
+
+
+accuracy=0.857798,average train_loss=0.224910,average test_loss=0.330845
+stop iteration: 286 time now: 2013-03-01 20:43:06.904208
+
+
+accuracy=0.857798,average train_loss=0.224746,average test_loss=0.330604
+stop iteration: 287 time now: 2013-03-01 20:43:08.275559
+
+
+accuracy=0.857798,average train_loss=0.224581,average test_loss=0.330768
+stop iteration: 288 time now: 2013-03-01 20:43:09.649977
+
+
+accuracy=0.857798,average train_loss=0.224506,average test_loss=0.331513
+stop iteration: 289 time now: 2013-03-01 20:43:11.021764
+
+
+accuracy=0.862385,average train_loss=0.224346,average test_loss=0.331211
+stop iteration: 290 time now: 2013-03-01 20:43:12.399588
+
+
+accuracy=0.857798,average train_loss=0.224198,average test_loss=0.331577
+stop iteration: 291 time now: 2013-03-01 20:43:13.777171
+
+
+accuracy=0.857798,average train_loss=0.223955,average test_loss=0.331365
+stop iteration: 292 time now: 2013-03-01 20:43:15.156678
+
+
+accuracy=0.857798,average train_loss=0.223860,average test_loss=0.331875
+stop iteration: 293 time now: 2013-03-01 20:43:16.536128
+
+
+accuracy=0.857798,average train_loss=0.223633,average test_loss=0.332116
+stop iteration: 294 time now: 2013-03-01 20:43:17.914680
+
+
+accuracy=0.857798,average train_loss=0.223474,average test_loss=0.331874
+stop iteration: 295 time now: 2013-03-01 20:43:19.291690
+
+
+accuracy=0.857798,average train_loss=0.223400,average test_loss=0.331523
+stop iteration: 296 time now: 2013-03-01 20:43:20.673210
+
+
+accuracy=0.857798,average train_loss=0.223244,average test_loss=0.331198
+stop iteration: 297 time now: 2013-03-01 20:43:22.055270
+
+
+accuracy=0.862385,average train_loss=0.223062,average test_loss=0.331352
+stop iteration: 298 time now: 2013-03-01 20:43:23.439181
+
+
+accuracy=0.857798,average train_loss=0.222919,average test_loss=0.330998
+stop iteration: 299 time now: 2013-03-01 20:43:24.821627
+
+
+accuracy=0.857798,average train_loss=0.222787,average test_loss=0.331471
+stop iteration: 300 time now: 2013-03-01 20:43:26.210801
+
+
+accuracy=0.857798,average train_loss=0.222702,average test_loss=0.331656
+stop iteration: 301 time now: 2013-03-01 20:43:27.603984
+
+
+accuracy=0.857798,average train_loss=0.222628,average test_loss=0.331670
+stop iteration: 302 time now: 2013-03-01 20:43:28.997758
+
+
+accuracy=0.857798,average train_loss=0.222482,average test_loss=0.331540
+stop iteration: 303 time now: 2013-03-01 20:43:30.392080
+
+
+accuracy=0.857798,average train_loss=0.222329,average test_loss=0.331300
+stop iteration: 304 time now: 2013-03-01 20:43:31.786082
+
+
+accuracy=0.857798,average train_loss=0.222147,average test_loss=0.331286
+stop iteration: 305 time now: 2013-03-01 20:43:33.181449
+
+
+accuracy=0.857798,average train_loss=0.222002,average test_loss=0.331988
+stop iteration: 306 time now: 2013-03-01 20:43:34.581101
+
+
+accuracy=0.857798,average train_loss=0.221855,average test_loss=0.332149
+stop iteration: 307 time now: 2013-03-01 20:43:35.977706
+
+
+accuracy=0.862385,average train_loss=0.221709,average test_loss=0.332033
+stop iteration: 308 time now: 2013-03-01 20:43:37.378391
+
+
+accuracy=0.857798,average train_loss=0.221535,average test_loss=0.331581
+stop iteration: 309 time now: 2013-03-01 20:43:38.776595
+
+
+accuracy=0.857798,average train_loss=0.221405,average test_loss=0.331590
+stop iteration: 310 time now: 2013-03-01 20:43:40.180225
+
+
+accuracy=0.857798,average train_loss=0.221260,average test_loss=0.332355
+stop iteration: 311 time now: 2013-03-01 20:43:41.580995
+
+
+accuracy=0.857798,average train_loss=0.221096,average test_loss=0.331663
+stop iteration: 312 time now: 2013-03-01 20:43:42.982687
+
+
+accuracy=0.857798,average train_loss=0.220827,average test_loss=0.331809
+stop iteration: 313 time now: 2013-03-01 20:43:44.382533
+
+
+accuracy=0.857798,average train_loss=0.220715,average test_loss=0.332391
+stop iteration: 314 time now: 2013-03-01 20:43:45.788624
+
+
+accuracy=0.853211,average train_loss=0.220584,average test_loss=0.332415
+stop iteration: 315 time now: 2013-03-01 20:43:47.191403
+
+
+accuracy=0.857798,average train_loss=0.220436,average test_loss=0.332117
+stop iteration: 316 time now: 2013-03-01 20:43:48.600769
+
+
+accuracy=0.857798,average train_loss=0.220366,average test_loss=0.332856
+stop iteration: 317 time now: 2013-03-01 20:43:50.012641
+
+
+accuracy=0.857798,average train_loss=0.220295,average test_loss=0.332525
+stop iteration: 318 time now: 2013-03-01 20:43:51.428066
+
+
+accuracy=0.857798,average train_loss=0.220153,average test_loss=0.332979
+stop iteration: 319 time now: 2013-03-01 20:43:52.842656
+
+
+accuracy=0.857798,average train_loss=0.220072,average test_loss=0.333162
+stop iteration: 320 time now: 2013-03-01 20:43:54.264244
+
+
+accuracy=0.857798,average train_loss=0.219866,average test_loss=0.333398
+stop iteration: 321 time now: 2013-03-01 20:43:55.684771
+
+
+accuracy=0.857798,average train_loss=0.219799,average test_loss=0.333411
+stop iteration: 322 time now: 2013-03-01 20:43:57.105422
+
+
+accuracy=0.857798,average train_loss=0.219616,average test_loss=0.333345
+stop iteration: 323 time now: 2013-03-01 20:43:58.525384
+
+
+accuracy=0.853211,average train_loss=0.219449,average test_loss=0.333359
+stop iteration: 324 time now: 2013-03-01 20:43:59.941549
+
+
+accuracy=0.857798,average train_loss=0.219321,average test_loss=0.333001
+stop iteration: 325 time now: 2013-03-01 20:44:01.362634
+
+
+accuracy=0.853211,average train_loss=0.219181,average test_loss=0.332754
+stop iteration: 326 time now: 2013-03-01 20:44:02.782790
+
+
+accuracy=0.853211,average train_loss=0.219043,average test_loss=0.332826
+stop iteration: 327 time now: 2013-03-01 20:44:04.202423
+
+
+accuracy=0.853211,average train_loss=0.218962,average test_loss=0.333376
+stop iteration: 328 time now: 2013-03-01 20:44:05.625658
+
+
+accuracy=0.853211,average train_loss=0.218833,average test_loss=0.334056
+stop iteration: 329 time now: 2013-03-01 20:44:07.050292
+
+
+accuracy=0.857798,average train_loss=0.218675,average test_loss=0.333748
+stop iteration: 330 time now: 2013-03-01 20:44:08.479298
+
+
+accuracy=0.857798,average train_loss=0.218555,average test_loss=0.333936
+stop iteration: 331 time now: 2013-03-01 20:44:09.908826
+
+
+accuracy=0.857798,average train_loss=0.218419,average test_loss=0.333710
+stop iteration: 332 time now: 2013-03-01 20:44:11.341881
+
+
+accuracy=0.857798,average train_loss=0.218279,average test_loss=0.333880
+stop iteration: 333 time now: 2013-03-01 20:44:12.775927
+
+
+accuracy=0.857798,average train_loss=0.218154,average test_loss=0.334321
+stop iteration: 334 time now: 2013-03-01 20:44:14.202597
+
+
+accuracy=0.862385,average train_loss=0.218086,average test_loss=0.333996
+stop iteration: 335 time now: 2013-03-01 20:44:15.638281
+
+
+accuracy=0.857798,average train_loss=0.217927,average test_loss=0.333561
+stop iteration: 336 time now: 2013-03-01 20:44:17.075134
+
+
+accuracy=0.857798,average train_loss=0.217796,average test_loss=0.333452
+stop iteration: 337 time now: 2013-03-01 20:44:18.510915
+
+
+accuracy=0.857798,average train_loss=0.217677,average test_loss=0.333470
+stop iteration: 338 time now: 2013-03-01 20:44:19.952813
+
+
+accuracy=0.857798,average train_loss=0.217553,average test_loss=0.334221
+stop iteration: 339 time now: 2013-03-01 20:44:21.388833
+
+
+accuracy=0.857798,average train_loss=0.217402,average test_loss=0.333549
+stop iteration: 340 time now: 2013-03-01 20:44:22.833003
+
+
+accuracy=0.857798,average train_loss=0.217274,average test_loss=0.333346
+stop iteration: 341 time now: 2013-03-01 20:44:24.270586
+
+
+accuracy=0.857798,average train_loss=0.217068,average test_loss=0.333111
+stop iteration: 342 time now: 2013-03-01 20:44:25.710846
+
+
+accuracy=0.857798,average train_loss=0.216967,average test_loss=0.333684
+stop iteration: 343 time now: 2013-03-01 20:44:27.153174
+
+
+accuracy=0.853211,average train_loss=0.216847,average test_loss=0.334034
+stop iteration: 344 time now: 2013-03-01 20:44:28.596272
+
+
+accuracy=0.857798,average train_loss=0.216711,average test_loss=0.333744
+stop iteration: 345 time now: 2013-03-01 20:44:30.039902
+
+
+accuracy=0.857798,average train_loss=0.216646,average test_loss=0.334473
+stop iteration: 346 time now: 2013-03-01 20:44:31.491006
+
+
+accuracy=0.862385,average train_loss=0.216407,average test_loss=0.334651
+stop iteration: 347 time now: 2013-03-01 20:44:32.940324
+
+
+accuracy=0.862385,average train_loss=0.216299,average test_loss=0.335137
+stop iteration: 348 time now: 2013-03-01 20:44:34.393195
+
+
+accuracy=0.862385,average train_loss=0.216170,average test_loss=0.335237
+stop iteration: 349 time now: 2013-03-01 20:44:35.841130
+
+
+accuracy=0.862385,average train_loss=0.216047,average test_loss=0.335917
+stop iteration: 350 time now: 2013-03-01 20:44:37.301109
+
+
+accuracy=0.857798,average train_loss=0.215921,average test_loss=0.335815
+stop iteration: 351 time now: 2013-03-01 20:44:38.760742
+
+
+accuracy=0.857798,average train_loss=0.215756,average test_loss=0.335770
+stop iteration: 352 time now: 2013-03-01 20:44:40.230110
+
+
+accuracy=0.857798,average train_loss=0.215610,average test_loss=0.335347
+stop iteration: 353 time now: 2013-03-01 20:44:41.683219
+
+
+accuracy=0.857798,average train_loss=0.215547,average test_loss=0.335360
+stop iteration: 354 time now: 2013-03-01 20:44:43.140609
+
+
+accuracy=0.857798,average train_loss=0.215475,average test_loss=0.335540
+stop iteration: 355 time now: 2013-03-01 20:44:44.598777
+
+
+accuracy=0.857798,average train_loss=0.215351,average test_loss=0.335324
+stop iteration: 356 time now: 2013-03-01 20:44:46.059971
+
+
+accuracy=0.862385,average train_loss=0.215235,average test_loss=0.336073
+stop iteration: 357 time now: 2013-03-01 20:44:47.518582
+
+
+accuracy=0.862385,average train_loss=0.215155,average test_loss=0.335855
+stop iteration: 358 time now: 2013-03-01 20:44:48.983552
+
+
+accuracy=0.862385,average train_loss=0.215084,average test_loss=0.336035
+stop iteration: 359 time now: 2013-03-01 20:44:50.440857
+
+
+accuracy=0.857798,average train_loss=0.214975,average test_loss=0.336056
+stop iteration: 360 time now: 2013-03-01 20:44:51.910433
+
+
+accuracy=0.857798,average train_loss=0.214854,average test_loss=0.336226
+stop iteration: 361 time now: 2013-03-01 20:44:53.383312
+
+
+accuracy=0.857798,average train_loss=0.214726,average test_loss=0.336525
+stop iteration: 362 time now: 2013-03-01 20:44:54.857141
+
+
+accuracy=0.857798,average train_loss=0.214580,average test_loss=0.336553
+stop iteration: 363 time now: 2013-03-01 20:44:56.323582
+
+
+accuracy=0.862385,average train_loss=0.214517,average test_loss=0.336245
+stop iteration: 364 time now: 2013-03-01 20:44:57.802174
+
+
+accuracy=0.862385,average train_loss=0.214456,average test_loss=0.336978
+stop iteration: 365 time now: 2013-03-01 20:44:59.277691
+
+
+accuracy=0.862385,average train_loss=0.214337,average test_loss=0.336786
+stop iteration: 366 time now: 2013-03-01 20:45:00.758053
+
+
+accuracy=0.862385,average train_loss=0.214264,average test_loss=0.337386
+stop iteration: 367 time now: 2013-03-01 20:45:02.235280
+
+
+accuracy=0.862385,average train_loss=0.214186,average test_loss=0.337175
+stop iteration: 368 time now: 2013-03-01 20:45:03.711344
+
+
+accuracy=0.862385,average train_loss=0.214116,average test_loss=0.337352
+stop iteration: 369 time now: 2013-03-01 20:45:05.184524
+
+
+accuracy=0.862385,average train_loss=0.214020,average test_loss=0.337462
+stop iteration: 370 time now: 2013-03-01 20:45:06.662472
+
+
+accuracy=0.862385,average train_loss=0.213960,average test_loss=0.337474
+stop iteration: 371 time now: 2013-03-01 20:45:08.151550
+
+
+accuracy=0.862385,average train_loss=0.213856,average test_loss=0.337782
+stop iteration: 372 time now: 2013-03-01 20:45:09.630210
+
+
+accuracy=0.862385,average train_loss=0.213760,average test_loss=0.337529
+stop iteration: 373 time now: 2013-03-01 20:45:11.112821
+
+
+accuracy=0.862385,average train_loss=0.213616,average test_loss=0.337721
+stop iteration: 374 time now: 2013-03-01 20:45:12.597674
+
+
+accuracy=0.862385,average train_loss=0.213504,average test_loss=0.337530
+stop iteration: 375 time now: 2013-03-01 20:45:14.089156
+
+
+accuracy=0.862385,average train_loss=0.213322,average test_loss=0.337764
+stop iteration: 376 time now: 2013-03-01 20:45:15.579091
+
+
+accuracy=0.862385,average train_loss=0.213180,average test_loss=0.337102
+stop iteration: 377 time now: 2013-03-01 20:45:17.066016
+
+
+accuracy=0.862385,average train_loss=0.213115,average test_loss=0.337280
+stop iteration: 378 time now: 2013-03-01 20:45:18.559909
+
+
+accuracy=0.862385,average train_loss=0.213037,average test_loss=0.337068
+stop iteration: 379 time now: 2013-03-01 20:45:20.053167
+
+
+accuracy=0.862385,average train_loss=0.212971,average test_loss=0.337245
+stop iteration: 380 time now: 2013-03-01 20:45:21.551929
+
+
+accuracy=0.862385,average train_loss=0.212905,average test_loss=0.337046
+stop iteration: 381 time now: 2013-03-01 20:45:23.046504
+
+
+accuracy=0.862385,average train_loss=0.212798,average test_loss=0.337464
+stop iteration: 382 time now: 2013-03-01 20:45:24.540484
+
+
+accuracy=0.862385,average train_loss=0.212678,average test_loss=0.337186
+stop iteration: 383 time now: 2013-03-01 20:45:26.035696
+
+
+accuracy=0.862385,average train_loss=0.212545,average test_loss=0.336786
+stop iteration: 384 time now: 2013-03-01 20:45:27.529611
+
+
+accuracy=0.857798,average train_loss=0.212435,average test_loss=0.337236
+stop iteration: 385 time now: 2013-03-01 20:45:29.025750
+
+
+accuracy=0.857798,average train_loss=0.212369,average test_loss=0.337417
+stop iteration: 386 time now: 2013-03-01 20:45:30.523049
+
+
+accuracy=0.862385,average train_loss=0.212310,average test_loss=0.337132
+stop iteration: 387 time now: 2013-03-01 20:45:32.023275
+
+
+accuracy=0.857798,average train_loss=0.212246,average test_loss=0.336937
+stop iteration: 388 time now: 2013-03-01 20:45:33.539907
+
+
+accuracy=0.862385,average train_loss=0.212182,average test_loss=0.337116
+stop iteration: 389 time now: 2013-03-01 20:45:35.048364
+
+
+accuracy=0.862385,average train_loss=0.212070,average test_loss=0.337282
+stop iteration: 390 time now: 2013-03-01 20:45:36.558100
+
+
+accuracy=0.862385,average train_loss=0.211948,average test_loss=0.337583
+stop iteration: 391 time now: 2013-03-01 20:45:38.066516
+
+
+accuracy=0.862385,average train_loss=0.211838,average test_loss=0.337170
+stop iteration: 392 time now: 2013-03-01 20:45:39.576279
+
+
+accuracy=0.862385,average train_loss=0.211728,average test_loss=0.337923
+stop iteration: 393 time now: 2013-03-01 20:45:41.095966
+
+
+accuracy=0.862385,average train_loss=0.211616,average test_loss=0.338589
+stop iteration: 394 time now: 2013-03-01 20:45:42.611946
+
+
+accuracy=0.857798,average train_loss=0.211507,average test_loss=0.338498
+stop iteration: 395 time now: 2013-03-01 20:45:44.130374
+
+
+accuracy=0.862385,average train_loss=0.211393,average test_loss=0.338317
+stop iteration: 396 time now: 2013-03-01 20:45:45.639779
+
+
+accuracy=0.857798,average train_loss=0.211308,average test_loss=0.338875
+stop iteration: 397 time now: 2013-03-01 20:45:47.150817
+
+
+accuracy=0.857798,average train_loss=0.211102,average test_loss=0.338697
+stop iteration: 398 time now: 2013-03-01 20:45:48.662675
+
+
+accuracy=0.862385,average train_loss=0.210910,average test_loss=0.338439
+stop iteration: 399 time now: 2013-03-01 20:45:50.178789
+
+
+accuracy=0.862385,average train_loss=0.210814,average test_loss=0.338947
+stop iteration: 400 time now: 2013-03-01 20:45:51.698327
+
+
+accuracy=0.862385,average train_loss=0.210701,average test_loss=0.339047
+stop iteration: 401 time now: 2013-03-01 20:45:53.220752
+
+
+accuracy=0.857798,average train_loss=0.210589,average test_loss=0.339351
+stop iteration: 402 time now: 2013-03-01 20:45:54.742558
+
+
+accuracy=0.857798,average train_loss=0.210476,average test_loss=0.339122
+stop iteration: 403 time now: 2013-03-01 20:45:56.280951
+
+
+accuracy=0.857798,average train_loss=0.210373,average test_loss=0.339541
+stop iteration: 404 time now: 2013-03-01 20:45:57.807036
+
+
+accuracy=0.857798,average train_loss=0.210310,average test_loss=0.339353
+stop iteration: 405 time now: 2013-03-01 20:45:59.332171
+
+
+accuracy=0.857798,average train_loss=0.210247,average test_loss=0.339530
+stop iteration: 406 time now: 2013-03-01 20:46:00.859359
+
+
+accuracy=0.857798,average train_loss=0.210185,average test_loss=0.339347
+stop iteration: 407 time now: 2013-03-01 20:46:02.395062
+
+
+accuracy=0.857798,average train_loss=0.210123,average test_loss=0.339522
+stop iteration: 408 time now: 2013-03-01 20:46:03.925174
+
+
+accuracy=0.857798,average train_loss=0.210066,average test_loss=0.340256
+stop iteration: 409 time now: 2013-03-01 20:46:05.456260
+
+
+accuracy=0.853211,average train_loss=0.209953,average test_loss=0.339985
+stop iteration: 410 time now: 2013-03-01 20:46:06.982110
+
+
+accuracy=0.853211,average train_loss=0.209813,average test_loss=0.340004
+stop iteration: 411 time now: 2013-03-01 20:46:08.508710
+
+
+accuracy=0.853211,average train_loss=0.209756,average test_loss=0.339741
+stop iteration: 412 time now: 2013-03-01 20:46:10.035411
+
+
+accuracy=0.853211,average train_loss=0.209662,average test_loss=0.339768
+stop iteration: 413 time now: 2013-03-01 20:46:11.565946
+
+
+accuracy=0.853211,average train_loss=0.209580,average test_loss=0.339553
+stop iteration: 414 time now: 2013-03-01 20:46:13.101639
+
+
+accuracy=0.857798,average train_loss=0.209480,average test_loss=0.339863
+stop iteration: 415 time now: 2013-03-01 20:46:14.632541
+
+
+accuracy=0.853211,average train_loss=0.209353,average test_loss=0.339584
+stop iteration: 416 time now: 2013-03-01 20:46:16.173688
+
+
+accuracy=0.853211,average train_loss=0.209290,average test_loss=0.339402
+stop iteration: 417 time now: 2013-03-01 20:46:17.716302
+
+
+accuracy=0.853211,average train_loss=0.209181,average test_loss=0.339512
+stop iteration: 418 time now: 2013-03-01 20:46:19.262151
+
+
+accuracy=0.853211,average train_loss=0.209072,average test_loss=0.339212
+stop iteration: 419 time now: 2013-03-01 20:46:20.799657
+
+
+accuracy=0.853211,average train_loss=0.209014,average test_loss=0.339378
+stop iteration: 420 time now: 2013-03-01 20:46:22.349997
+
+
+accuracy=0.853211,average train_loss=0.208928,average test_loss=0.339163
+stop iteration: 421 time now: 2013-03-01 20:46:23.897029
+
+
+accuracy=0.848624,average train_loss=0.208848,average test_loss=0.339720
+stop iteration: 422 time now: 2013-03-01 20:46:25.448717
+
+
+accuracy=0.848624,average train_loss=0.208724,average test_loss=0.339326
+stop iteration: 423 time now: 2013-03-01 20:46:26.989969
+
+
+accuracy=0.853211,average train_loss=0.208615,average test_loss=0.339116
+stop iteration: 424 time now: 2013-03-01 20:46:28.538065
+
+
+accuracy=0.853211,average train_loss=0.208511,average test_loss=0.339770
+stop iteration: 425 time now: 2013-03-01 20:46:30.083590
+
+
+accuracy=0.853211,average train_loss=0.208415,average test_loss=0.339950
+stop iteration: 426 time now: 2013-03-01 20:46:31.638873
+
+
+accuracy=0.853211,average train_loss=0.208269,average test_loss=0.339928
+stop iteration: 427 time now: 2013-03-01 20:46:33.188405
+
+
+accuracy=0.853211,average train_loss=0.208180,average test_loss=0.340222
+stop iteration: 428 time now: 2013-03-01 20:46:34.742397
+
+
+accuracy=0.853211,average train_loss=0.208121,average test_loss=0.340054
+stop iteration: 429 time now: 2013-03-01 20:46:36.294251
+
+
+accuracy=0.853211,average train_loss=0.208061,average test_loss=0.340222
+stop iteration: 430 time now: 2013-03-01 20:46:37.857561
+
+
+accuracy=0.853211,average train_loss=0.208006,average test_loss=0.340233
+stop iteration: 431 time now: 2013-03-01 20:46:39.416312
+
+
+accuracy=0.853211,average train_loss=0.207903,average test_loss=0.340070
+stop iteration: 432 time now: 2013-03-01 20:46:40.981716
+
+
+accuracy=0.848624,average train_loss=0.207786,average test_loss=0.340391
+stop iteration: 433 time now: 2013-03-01 20:46:42.544778
+
+
+accuracy=0.853211,average train_loss=0.207685,average test_loss=0.340304
+stop iteration: 434 time now: 2013-03-01 20:46:44.113038
+
+
+accuracy=0.848624,average train_loss=0.207582,average test_loss=0.340480
+stop iteration: 435 time now: 2013-03-01 20:46:45.676028
+
+
+accuracy=0.853211,average train_loss=0.207471,average test_loss=0.340774
+stop iteration: 436 time now: 2013-03-01 20:46:47.253273
+
+
+accuracy=0.853211,average train_loss=0.207376,average test_loss=0.341519
+stop iteration: 437 time now: 2013-03-01 20:46:48.817196
+
+
+accuracy=0.853211,average train_loss=0.207246,average test_loss=0.340857
+stop iteration: 438 time now: 2013-03-01 20:46:50.388303
+
+
+accuracy=0.853211,average train_loss=0.207082,average test_loss=0.341090
+stop iteration: 439 time now: 2013-03-01 20:46:51.951127
+
+
+accuracy=0.848624,average train_loss=0.206981,average test_loss=0.340669
+stop iteration: 440 time now: 2013-03-01 20:46:53.518243
+
+
+accuracy=0.853211,average train_loss=0.206891,average test_loss=0.341180
+stop iteration: 441 time now: 2013-03-01 20:46:55.090741
+
+
+accuracy=0.853211,average train_loss=0.206834,average test_loss=0.341352
+stop iteration: 442 time now: 2013-03-01 20:46:56.655724
+
+
+accuracy=0.853211,average train_loss=0.206774,average test_loss=0.341176
+stop iteration: 443 time now: 2013-03-01 20:46:58.229400
+
+
+accuracy=0.853211,average train_loss=0.206718,average test_loss=0.341347
+stop iteration: 444 time now: 2013-03-01 20:46:59.809089
+
+
+accuracy=0.853211,average train_loss=0.206637,average test_loss=0.341140
+stop iteration: 445 time now: 2013-03-01 20:47:01.388441
+
+
+accuracy=0.853211,average train_loss=0.206542,average test_loss=0.340848
+stop iteration: 446 time now: 2013-03-01 20:47:02.961507
+
+
+accuracy=0.848624,average train_loss=0.206425,average test_loss=0.340587
+stop iteration: 447 time now: 2013-03-01 20:47:04.545360
+
+
+accuracy=0.848624,average train_loss=0.206369,average test_loss=0.340422
+stop iteration: 448 time now: 2013-03-01 20:47:06.129475
+
+
+accuracy=0.848624,average train_loss=0.206310,average test_loss=0.340593
+stop iteration: 449 time now: 2013-03-01 20:47:07.713897
+
+
+accuracy=0.848624,average train_loss=0.206255,average test_loss=0.340432
+stop iteration: 450 time now: 2013-03-01 20:47:09.298395
+
+
+accuracy=0.848624,average train_loss=0.206198,average test_loss=0.340601
+stop iteration: 451 time now: 2013-03-01 20:47:10.882745
+
+
+accuracy=0.848624,average train_loss=0.206111,average test_loss=0.340634
+stop iteration: 452 time now: 2013-03-01 20:47:12.465369
+
+
+accuracy=0.848624,average train_loss=0.206048,average test_loss=0.341275
+stop iteration: 453 time now: 2013-03-01 20:47:14.050488
+
+
+accuracy=0.848624,average train_loss=0.205949,average test_loss=0.341447
+stop iteration: 454 time now: 2013-03-01 20:47:15.638302
+
+
+accuracy=0.848624,average train_loss=0.205845,average test_loss=0.341244
+stop iteration: 455 time now: 2013-03-01 20:47:17.223204
+
+
+accuracy=0.848624,average train_loss=0.205769,average test_loss=0.341053
+stop iteration: 456 time now: 2013-03-01 20:47:18.816717
+
+
+accuracy=0.848624,average train_loss=0.205674,average test_loss=0.341814
+stop iteration: 457 time now: 2013-03-01 20:47:20.412967
+
+
+accuracy=0.848624,average train_loss=0.205621,average test_loss=0.342539
+stop iteration: 458 time now: 2013-03-01 20:47:22.012378
+
+
+accuracy=0.848624,average train_loss=0.205448,average test_loss=0.342272
+stop iteration: 459 time now: 2013-03-01 20:47:23.601628
+
+
+accuracy=0.848624,average train_loss=0.205258,average test_loss=0.342142
+stop iteration: 460 time now: 2013-03-01 20:47:25.205244
+
+
+accuracy=0.848624,average train_loss=0.205173,average test_loss=0.342438
+stop iteration: 461 time now: 2013-03-01 20:47:26.803841
+
+
+accuracy=0.848624,average train_loss=0.205076,average test_loss=0.343085
+stop iteration: 462 time now: 2013-03-01 20:47:28.408967
+
+
+accuracy=0.853211,average train_loss=0.204963,average test_loss=0.342699
+stop iteration: 463 time now: 2013-03-01 20:47:30.004055
+
+
+accuracy=0.853211,average train_loss=0.204872,average test_loss=0.342534
+stop iteration: 464 time now: 2013-03-01 20:47:31.611652
+
+
+accuracy=0.853211,average train_loss=0.204739,average test_loss=0.342525
+stop iteration: 465 time now: 2013-03-01 20:47:33.207384
+
+
+accuracy=0.857798,average train_loss=0.204655,average test_loss=0.343043
+stop iteration: 466 time now: 2013-03-01 20:47:34.810284
+
+
+accuracy=0.857798,average train_loss=0.204533,average test_loss=0.342399
+stop iteration: 467 time now: 2013-03-01 20:47:36.411598
+
+
+accuracy=0.857798,average train_loss=0.204436,average test_loss=0.342568
+stop iteration: 468 time now: 2013-03-01 20:47:38.014879
+
+
+accuracy=0.853211,average train_loss=0.204335,average test_loss=0.342865
+stop iteration: 469 time now: 2013-03-01 20:47:39.623104
+
+
+accuracy=0.853211,average train_loss=0.204239,average test_loss=0.342710
+stop iteration: 470 time now: 2013-03-01 20:47:41.239171
+
+
+accuracy=0.853211,average train_loss=0.204146,average test_loss=0.342631
+stop iteration: 471 time now: 2013-03-01 20:47:42.853687
+
+
+accuracy=0.853211,average train_loss=0.204056,average test_loss=0.343386
+stop iteration: 472 time now: 2013-03-01 20:47:44.466782
+
+
+accuracy=0.853211,average train_loss=0.203985,average test_loss=0.343204
+stop iteration: 473 time now: 2013-03-01 20:47:46.082399
+
+
+accuracy=0.853211,average train_loss=0.203928,average test_loss=0.343373
+stop iteration: 474 time now: 2013-03-01 20:47:47.704220
+
+
+accuracy=0.853211,average train_loss=0.203832,average test_loss=0.342891
+stop iteration: 475 time now: 2013-03-01 20:47:49.325864
+
+
+accuracy=0.853211,average train_loss=0.203740,average test_loss=0.342838
+stop iteration: 476 time now: 2013-03-01 20:47:50.941931
+
+
+accuracy=0.853211,average train_loss=0.203688,average test_loss=0.342684
+stop iteration: 477 time now: 2013-03-01 20:47:52.558741
+
+
+accuracy=0.853211,average train_loss=0.203634,average test_loss=0.342852
+stop iteration: 478 time now: 2013-03-01 20:47:54.175010
+
+
+accuracy=0.853211,average train_loss=0.203583,average test_loss=0.342700
+stop iteration: 479 time now: 2013-03-01 20:47:55.794855
+
+
+accuracy=0.853211,average train_loss=0.203531,average test_loss=0.342865
+stop iteration: 480 time now: 2013-03-01 20:47:57.419672
+
+
+accuracy=0.853211,average train_loss=0.203482,average test_loss=0.342717
+stop iteration: 481 time now: 2013-03-01 20:47:59.042750
+
+
+accuracy=0.857798,average train_loss=0.203394,average test_loss=0.343035
+stop iteration: 482 time now: 2013-03-01 20:48:00.667935
+
+
+accuracy=0.853211,average train_loss=0.203294,average test_loss=0.342776
+stop iteration: 483 time now: 2013-03-01 20:48:02.299589
+
+
+accuracy=0.853211,average train_loss=0.203176,average test_loss=0.342802
+stop iteration: 484 time now: 2013-03-01 20:48:03.932039
+
+
+accuracy=0.853211,average train_loss=0.203124,average test_loss=0.342569
+stop iteration: 485 time now: 2013-03-01 20:48:05.562462
+
+
+accuracy=0.853211,average train_loss=0.203073,average test_loss=0.343297
+stop iteration: 486 time now: 2013-03-01 20:48:07.197463
+
+
+accuracy=0.853211,average train_loss=0.202981,average test_loss=0.343589
+stop iteration: 487 time now: 2013-03-01 20:48:08.832237
+
+
+accuracy=0.853211,average train_loss=0.202881,average test_loss=0.343698
+stop iteration: 488 time now: 2013-03-01 20:48:10.469951
+
+
+accuracy=0.853211,average train_loss=0.202791,average test_loss=0.343919
+stop iteration: 489 time now: 2013-03-01 20:48:12.103867
+
+
+accuracy=0.853211,average train_loss=0.202741,average test_loss=0.344080
+stop iteration: 490 time now: 2013-03-01 20:48:13.736657
+
+
+accuracy=0.853211,average train_loss=0.202690,average test_loss=0.344092
+stop iteration: 491 time now: 2013-03-01 20:48:15.365131
+
+
+accuracy=0.853211,average train_loss=0.202608,average test_loss=0.344128
+stop iteration: 492 time now: 2013-03-01 20:48:16.998315
+
+
+accuracy=0.853211,average train_loss=0.202518,average test_loss=0.344761
+stop iteration: 493 time now: 2013-03-01 20:48:18.631884
+
+
+accuracy=0.853211,average train_loss=0.202412,average test_loss=0.344388
+stop iteration: 494 time now: 2013-03-01 20:48:20.266993
+
+
+accuracy=0.853211,average train_loss=0.202355,average test_loss=0.345045
+stop iteration: 495 time now: 2013-03-01 20:48:21.904608
+
+
+accuracy=0.853211,average train_loss=0.202263,average test_loss=0.344860
+stop iteration: 496 time now: 2013-03-01 20:48:23.551555
+
+
+accuracy=0.853211,average train_loss=0.202173,average test_loss=0.344714
+stop iteration: 497 time now: 2013-03-01 20:48:25.193993
+
+
+accuracy=0.853211,average train_loss=0.202097,average test_loss=0.345004
+stop iteration: 498 time now: 2013-03-01 20:48:26.841239
+
+
+accuracy=0.853211,average train_loss=0.202027,average test_loss=0.344823
+stop iteration: 499 time now: 2013-03-01 20:48:28.486903
+
+
+accuracy=0.853211,average train_loss=0.201978,average test_loss=0.344990
+stop iteration: 500 time now: 2013-03-01 20:48:30.135515
+
+
