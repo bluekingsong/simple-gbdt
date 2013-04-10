@@ -1,8 +1,8 @@
 usage: python script/gbt.py data_filename stat_filename max_iter sample_rate learn_rate max_depth split_points
 
-for example: ./script/gbt.py data/adult.data.csv output/adult.data.stat 50 0.4 0.1 1 1000
+for example: python script/gbt.py data/adult.data.csv output/adult.data.stat 50 0.4 0.1 1 1000
 
-data_filename: the csv datafile used to train and test( random split 1/3 of data as test part
+data_filename: the csv datafile used to train and test(random split 1/3 of data as test part)
 stat_filename: the file to hold ouput information about prediction accuracy and loss value in each iteration
 max_iter: set the iterations in gradient boost algorithm
 sample_rate: subsample rate of train data to construct a single decision tree
